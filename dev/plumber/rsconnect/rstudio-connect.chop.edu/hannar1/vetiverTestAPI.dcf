@@ -1,0 +1,10 @@
+name: vetiverTestAPI
+title: Vetiver Test API
+username: hannar1
+account: hannar1
+server: rstudio-connect.chop.edu
+hostUrl: https://rstudio-connect.chop.edu/__api__
+appId: 4670
+bundleId:
+url: https://rstudio-connect.chop.edu/content/1a27facf-19db-4f7d-aff9-89345ffb0ae5/
+version: 1
