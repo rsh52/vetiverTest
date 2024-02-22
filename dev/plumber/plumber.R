@@ -4,11 +4,11 @@ library(pins)
 library(plumber)
 library(rapidoc)
 library(vetiver)
-library(vetiverTest)
+library(vetiverTest) # Adding this resolves the Connect issue
 b <- board_connect(auth = "envvar")
 v <- vetiver_pin_read(b, "hannar1/my_model", version = "484898")
 
 #* @plumber
 function(pr) {
-    pr %>% vetiver_api(v)
+  pr %>% vetiver_api(v)
 }
